@@ -56,24 +56,25 @@ Se han aplicado mejoras visuales mediante el uso de Bootstrap 5 y se ha actualiz
 ## Instalación y configuración
 
 1. Instala **XAMPP** o **WAMP** en tu equipo.
-2. Clona o descarga este repositorio en la carpeta del servidor local:
+2.  
+3. Debes descargar la carpeta .zip y descomprimirla en el repositorio en la carpeta del servidor local:
    ```
    C:/wamp/www/new-educatlucena-tfg/
    ```
-3. Accede a **phpMyAdmin** y crea la base de datos:
+4. Accede a **phpMyAdmin** y crea la base de datos:
    ```
    educa_t_lucena
    ```
-4. Importa el archivo `.sql` correspondiente a la estructura de base de datos (no incluido en este repositorio por privacidad).
-5. Configura la conexi贸n a la base de datos en `/Connections/conexion.php`.
-6. Accede desde tu navegador a:
+5. Importa el archivo `.sql` correspondiente a la estructura de base de datos (no incluido en este repositorio por privacidad).
+6. Configura la conexión a la base de datos en `/Connections/conexion.php`.
+7. Accede desde tu navegador a:
    ```
    http://localhost/new-educatlucena-tfg/index.php
    ```
-7. Una vez dentro debe loguearse con un usuario con permisos de tipo profesor, puede usarse el siguiente usuario, clicando en el icono de profesores: 
+8. Una vez dentro debe loguearse con un usuario con permisos de tipo profesor, puede usarse el siguiente usuario, clicando en el icono de profesores: 
 
 	Usuario: Claudia Password: UNIR@Claudia%2025
-8. Con esto podría ir entrando en los diferentes apartados para probar la plataforma, dentro del TFG entre las páginas 41 y 53 se hace un repaso por
+9. Con esto podría ir entrando en los diferentes apartados para probar la plataforma, dentro del TFG entre las páginas 41 y 53 se hace un repaso por
    todos los apartados funcionales de la Aplicación Web EducaTLucena.
 ---
 
