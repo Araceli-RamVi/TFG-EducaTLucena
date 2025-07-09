@@ -6,54 +6,54 @@ Trabajo Fin de Grado en Ingeniería Informática - UNIR
 
 ## Descripción general
 
-Este proyecto corresponde al Trabajo Fin de Grado (TFG) del Grado en Ingeniería Informática de la Universidad Internacional de La Rioja (UNIR). Su objetivo ha sido modernizar y reforzar una plataforma web para la gesti贸n de clases particulares: **EducaTLucena**.
+Este proyecto corresponde al Trabajo Fin de Grado (TFG) del Grado en Ingeniería Informática de la Universidad Internacional de La Rioja (UNIR). Su objetivo ha sido modernizar y reforzar una plataforma web para la gestión de clases particulares: **EducaTLucena**.
 
-Se han aplicado mejoras visuales mediante el uso de Bootstrap 5 y se ha actualizado el backend a PHP 8, mejorando as铆 la estructura, la seguridad y la compatibilidad con dispositivos m贸viles. Actualmente el sistema permite la gesti贸n de usuarios, tareas, calificaciones y configuraciones asociadas a profesores y alumnos, siendo funcional principalmente para el perfil docente.
+Se han aplicado mejoras visuales mediante el uso de Bootstrap 5 y se ha actualizado el backend a PHP 8, mejorando así la estructura, la seguridad y la compatibilidad con dispositivos móviles. Actualmente el sistema permite la gesti贸n de usuarios, tareas, calificaciones y configuraciones asociadas a profesores y alumnos, siendo funcional principalmente para el perfil docente.
 
 ---
 
-## 馃幆 Objetivos del proyecto
+## Objetivos del proyecto
 
-1. Redise帽ar la parte frontend con un aspecto m谩s moderno e intuitivo.
-2. Mejorar la gesti贸n de datos de usuarios con mayor seguridad y cumplimiento del RGPD.
-3. Implementar una versi贸n responsive para uso multiplataforma.
+1. Rediseñar la parte frontend con un aspecto más moderno e intuitivo.
+2. Mejorar la gestión de datos de usuarios con mayor seguridad y cumplimiento del RGPD.
+3. Implementar una versión responsive para uso multiplataforma.
 4. Solucionar errores de persistencia en configuraciones de usuario.
 
 ---
 
-## 馃洜锔?Tecnolog铆as utilizadas
+## Tecnologías utilizadas
 
 - PHP 8
 - Bootstrap 5
 - HTML5 / CSS3 / JavaScript
 - MySQL
 - XAMPP / WAMP (entorno local)
-- CKEditor (editor de texto enriquecido en m贸dulo admin)
+- CKEditor (editor de texto enriquecido en módulo admin)
 
 ---
 
-## 馃搧 Estructura del proyecto
+## Estructura del proyecto
 
-```plaintext
+```new-educatlucena-tfg
 /
-鈹溾攢鈹€ admin/                     # M贸dulo de administraci贸n (alta, edici贸n, borrado, gesti贸n acad茅mica)
-鈹?  鈹溾攢鈹€ bbded/                 # Scripts SQL y funciones de base de datos
-鈹?  鈹溾攢鈹€ calendario/           # Componentes para gesti贸n de fechas y tareas
-鈹?  鈹溾攢鈹€ ckeditor/             # Editor de texto enriquecido
-鈹?  鈹溾攢鈹€ includes/             # Archivos comunes y utilidades
-鈹?  鈹溾攢鈹€ js/, imagenes/, assets/
-鈹?  鈹斺攢鈹€ *.php                 # Funciones: alta, edici贸n, borrado, consultas, etc.
-鈹?鈹溾攢鈹€ Connections/              # Conexiones a base de datos
-鈹溾攢鈹€ estilos/, fonts/, js/     # Recursos visuales y scripts comunes
-鈹溾攢鈹€ imagenes/                 # Im谩genes generales del sitio
-鈹溾攢鈹€ header.php / footer.php   # Cabecera y pie comunes
-鈹溾攢鈹€ index.php / login.php     # P谩ginas de entrada y autenticaci贸n
-鈹溾攢鈹€ *.php                     # Vistas de error, plantillas, construcci贸n...
+- admin/                     # Módulo de administración (alta, edición, borrado, gestión académica)
+	- bbdd/                 # Scripts SQL y funciones de base de datos
+	- calendario/           # Componentes para gestión de fechas y tareas
+	- ckeditor/             # Editor de texto enriquecido
+	- includes/             # Archivos comunes y utilidades
+	- js/, imagenes/, assets/
+	-  *.php                 # Funciones: alta, edición, borrado, consultas, etc.
+-Connections/              # Conexiones a base de datos
+- estilos/, fonts/, js/     # Recursos visuales y scripts comunes
+- imagenes/                 # Imágenes generales del sitio
+- header.php / footer.php   # Cabecera y pie comunes
+- index.php / login.php     # Páginas de entrada y autenticación
+- *.php                     # Vistas de error, plantillas, construcción...
 ```
 
 ---
 
-## 鈿欙笍 Instalaci贸n y configuraci贸n
+## Instalación y configuración
 
 1. Instala **XAMPP** o **WAMP** en tu equipo.
 2. Clona o descarga este repositorio en la carpeta del servidor local:
@@ -77,20 +77,20 @@ Se han aplicado mejoras visuales mediante el uso de Bootstrap 5 y se ha actualiz
    todos los apartados funcionales de la Aplicación Web EducaTLucena.
 ---
 
-## 馃懁 Autor
+## Autora
 
-**Mar铆a Araceli Ram铆rez Vigo**  
-Trabajo Fin de Grado - Grado en Ingenier铆a Inform谩tica  
+**María Araceli Ramírez Vigo**  
+Trabajo Fin de Grado - Grado en Ingeniería Informática  
 Universidad Internacional de La Rioja (UNIR)
 
 ---
 
-## 馃摎 Palabras clave
+## Palabras clave
 
-PHP 8, Bootstrap 5, plataforma educativa, gesti贸n acad茅mica, responsive, TFG UNIR
+PHP 8, Bootstrap 5, plataforma educativa, gestión académica, responsive, TFG UNIR
 
 ---
 
-## 馃 Licencia
+## Licencia
 
-Este proyecto ser谩 publicado bajo licencia **MIT**. Libre para uso acad茅mico, educativo o personal.
+Este proyecto será publicado bajo licencia **MIT**. Libre para uso académico, educativo o personal.
